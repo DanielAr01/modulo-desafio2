@@ -1,0 +1,122 @@
+body{margin: 0;}
+
+.contenedor{
+display:flex ;
+flex-direction:row;
+}
+.barra-lateral{
+background-color: rgb(189, 243, 232);
+border:1px solid green;
+flex-grow: 1;
+width: 60px;
+}
+.contenido{
+flex-grow: 4;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+.perfil{
+border: solid 1px green;
+display: flex;
+padding: 1rem;
+justify-content: space-between;
+}
+.imgMaria{
+gap:0.5rem;
+display: flex;
+border :1px solid 
+}
+.imgMaria > img{
+border-radius: 50%;
+}
+.imgMaria > section{
+border: solid violet 1px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+h2{margin:0}
+p{margin:0}
+.iconos{
+border: solid 1px black;
+display: flex;
+align-items: center;
+gap: 1rem;
+font-size: 2rem;
+}
+.nuevoChat{
+border:solid 1px black;
+padding: 2.0rem; display: flex;
+justify-content: center;
+align-items: center
+;
+}
+button{background-color: rgb(206, 164, 245);}
+
+.cajita1{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita1 > img{
+    border-radius: 50%; 
+}
+
+.nombre1{
+border:1px solid blue ;
+display: flex;
+align-items: center;
+}
+.cajita2{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita2 > img{
+    border-radius: 50%; 
+}
+
+.nombre2{
+border:1px  ;
+display: flex;
+align-items: center;
+}
+.cajita3{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita3 > img{
+    border-radius: 50%; 
+}
+
+
+.cajita4{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita4 > img{
+    border-radius: 50%; 
+}
+
+.cajita5{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita5 > img{
+    border-radius: 50%; 
+}
+.cajita6{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita6 > img{
+    border-radius: 50%; 
+}
+.cajita7{gap: 3rem;
+    border: 1px solid black;
+    display: flex;}
+
+.cajita7 > img{
+    border-radius: 50%; 
+}
+
+
